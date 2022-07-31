@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 
-const msg = process.env.TEST_MESSAGE
+const msg = import.meta.env.VITE_MESSAGE
 
 </script>
 <template>
