@@ -1,12 +1,5 @@
-<script setup>
-import { ref } from 'vue'
-
-const msg = import.meta.env.VITE_MESSAGE
-
-</script>
 <template>
-  <div>
-    <h1>About</h1>
-    <p>{{msg}}</p>
+  <div class="about">
+    <h1>This is an about page</h1>
   </div>
 </template>
